@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - trunk
+      - gh.ak1ra.xyz
+  workflow_dispatch:
 
 jobs:
   deploy:
